@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class N03MonthNumberIsValidOrNot {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Please enter any number");
 		int n=sc.nextInt();
